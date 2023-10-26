@@ -1,5 +1,5 @@
 package t02;
 
-public class FiguraGeometrica {
+public abstract class FiguraGeometrica {
     
 }
