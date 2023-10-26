@@ -11,6 +11,8 @@ public class Testador {
 
         Estudante est2 = new Estudante(2, "Leonardo 2");
         est2.setNome("Maria"); 
+
+        Estudante est3 = new Estudante(3, "Leonardo 3");
       
     }
 }
