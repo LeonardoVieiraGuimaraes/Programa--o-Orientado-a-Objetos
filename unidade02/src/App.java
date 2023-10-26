@@ -4,6 +4,7 @@ import t01.Fatorial;
 // import t01.MecanismoDeAutenticacao;
 import t02.Aluno;
 import t02.AlunoDeGraduacao;
+import t03.Copier;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -24,6 +25,20 @@ public class App {
         Aluno a = new AlunoDeGraduacao(12, "Leonardo", "ADS");
 
         // a.matricula
+
+
+        Double f1[] = new Double[50];
+        Double f2[] = new Double[50];
+        Copier<Double> cpDouble = new Copier<Double>();
+        cpDouble.copy(f1,f2, 10);
+
+        String s1[] = new String[20];
+        String s2[] = new String[40];
+        Copier<String> cpString = new Copier<String>();
+        cpString.copy(s1,s2, 10);
+
+
+        
     
     }
 }
