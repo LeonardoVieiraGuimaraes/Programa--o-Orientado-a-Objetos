@@ -247,5 +247,6 @@ public class LivroDAO implements IDAO<Livro> {
             // original.
             throw new RuntimeException("Erro ao remover o livro", e);
         }
+
     }
 }

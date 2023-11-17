@@ -64,9 +64,13 @@ public class App {
         // Listando novamente todos os livros para verificar a exclusão.
         System.out.println("\nLivros na base de dados após exclusão:");
         livros = livroDAO.list();
+        System.out.println(livros.toString());
+
         for (Livro livro : livros) {
             // Impressão do título e do autor de cada livro.
             System.out.println(livro.getTitulo() + " - " + livro.getAutor());
         }
+
+        // dao.gerConecao().fecharConecao();
     }
 }

@@ -105,9 +105,15 @@ public class Livro {
         this.avaliacao = avaliacao;
     }
 
-    // Declaração do construtor padrão da classe Livro. Este construtor não recebe
-    // nenhum argumento e não faz nada.
+    // // Declaração do construtor padrão da classe Livro. Este construtor não
+    // recebe
+    // // nenhum argumento e não faz nada.
     public Livro() {
+    }
+
+    @Override
+    public String toString() {
+        return "Livro [titulo = " + titulo + "]";
     }
 
 }
